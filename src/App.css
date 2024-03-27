@@ -1,0 +1,25 @@
+.flex-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.myDiv {
+    background-color: lightcoral;
+    height: 50px;
+}
+
+.myText {
+    background-color: lightskyblue;
+    max-width: 500px;
+}
+
+.mySpan {
+    background-color: rgb(135, 250, 141);
+}
+
+.myImg {
+    height: 150px;
+}
