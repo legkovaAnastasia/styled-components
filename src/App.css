@@ -4,22 +4,40 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    /*gap: 20px;*/
+    row-gap: 20px;
 }
 
 .myDiv {
     background-color: lightcoral;
     height: 50px;
+    flex: 1 5 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .myText {
     background-color: lightskyblue;
     max-width: 500px;
+    /*flex-shrink: 2;*/
 }
 
 .mySpan {
     background-color: rgb(135, 250, 141);
+    /*flex-grow: 1;*/
+    width: 300px;
 }
 
 .myImg {
-    height: 150px;
+    height: 250px;
+
+}
+
+footer {
+    background-color: aliceblue;
+    height: 50px;
 }

@@ -9,6 +9,11 @@ import {theme} from "./components/styles/Theme.styled";
 function App() {
     return (
         <div className="App">
+            {/*<div className="wrap">*/}
+            {/*    <header> header</header>*/}
+            {/*    <main> content</main>*/}
+            {/*    <footer> footer</footer>*/}
+            {/*</div>*/}
             <div className="flex-container">
                 <div className="myDiv">I'm div</div>
                 <img className="myImg" src="https://sitedelkino.ru/images/rasdel_css/Flexbox2.jpg" alt=''></img>
